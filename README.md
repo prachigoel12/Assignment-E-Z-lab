@@ -30,11 +30,13 @@ Commit includes:
 
 Secure File Sharing System(Django)
 A role-based secure file-sharing backend API built with Django REST Framework. Supports Ops Users and Client Users with secure upload/download functionality.
-👤 User Roles
-✅ Ops User
-Login
 
-Upload .pptx, .docx, .xlsx files only
+👤 User Roles
+
+✅ Ops User
+
+• Login
+• Upload .pptx, .docx, .xlsx files only
 
 ✅ Client User
 Sign up and receive encrypted email verification link
