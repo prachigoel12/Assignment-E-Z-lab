@@ -76,11 +76,17 @@ A role-based secure file-sharing backend API built with Django REST Framework. S
 Setup Instructions-
 
 • git clone https://github.com/yourusername/secure-file-sharing.git
+
 • cd secure-file-sharing
+
 • python -m venv venv
+
 • source venv/bin/activate
+
 • pip install -r requirements.txt
+
 • python manage.py migrate
+
 • python manage.py runserver
 
 
