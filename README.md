@@ -68,13 +68,13 @@ Encrypted one-time download links (for verified clients only)
 Email verification before login
 
 Setup Instructions-
-git clone https://github.com/yourusername/secure-file-sharing.git
-cd secure-file-sharing
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+-> git clone https://github.com/yourusername/secure-file-sharing.git
+-> cd secure-file-sharing
+-> python -m venv venv
+-> source venv/bin/activate
+-> pip install -r requirements.txt
+-> python manage.py migrate
+-> python manage.py runserver
 
 
 Folder Structure-
