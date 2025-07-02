@@ -36,52 +36,57 @@ A role-based secure file-sharing backend API built with Django REST Framework. S
 ✅ Ops User
 
 • Login
+
 • Upload .pptx, .docx, .xlsx files only
 
 ✅ Client User
-Sign up and receive encrypted email verification link
 
-Verify account to activate
+• Sign up and receive encrypted email verification link
 
-Login
+• Verify account to activate
 
-View list of uploaded files
+• Login
 
-Download via secure encrypted URL (only accessible by client)
+• View list of uploaded files
+
+• Download via secure encrypted URL (only accessible by client)
 
 ⚙️ Tech Stack
-Python, Django, DRF
 
-JWT Authentication
+• Python, Django
 
-Fernet (for secure URL generation)
+• JWT Authentication
 
-SQLite / PostgreSQL
+• Fernet (for secure URL generation)
 
-Django console email backend
+• MongoDB/ MySQL
+
+• Django console email backend
 
 🔐 Security Highlights
-Role-based access control
 
-File type validation (only office formats allowed)
+• Role-based access control
 
-Encrypted one-time download links (for verified clients only)
+• File type validation (only office formats allowed)
 
-Email verification before login
+• Encrypted one-time download links (for verified clients only)
+
+• Email verification before login
 
 Setup Instructions-
--> git clone https://github.com/yourusername/secure-file-sharing.git
--> cd secure-file-sharing
--> python -m venv venv
--> source venv/bin/activate
--> pip install -r requirements.txt
--> python manage.py migrate
--> python manage.py runserver
+
+• git clone https://github.com/yourusername/secure-file-sharing.git
+• cd secure-file-sharing
+• python -m venv venv
+• source venv/bin/activate
+• pip install -r requirements.txt
+• python manage.py migrate
+• python manage.py runserver
 
 
 Folder Structure-
 
-secure_file_sharing/
+• secure_file_sharing/
 ├── core/
 │   ├── views.py
 │   ├── models.py
